@@ -1,0 +1,19 @@
+{
+  "require": {
+    "klein/klein": "^2.1",
+    "doctrine/orm": "2.6.*",
+    "php-di/php-di": "^6.0",
+    "vlucas/phpdotenv": "^2.5",
+    "doctrine/annotations": "^1.6",
+    "firebase/php-jwt": "^5.0",
+    "doctrine/migrations": "^1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rpl\\": "src/"
+    }
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.4"
+  }
+}
